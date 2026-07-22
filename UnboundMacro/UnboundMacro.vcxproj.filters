@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{a1111111-1111-1111-1111-111111111111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{a2222222-2222-2222-2222-222222222222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{a3333333-3333-3333-3333-333333333333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{a4444444-4444-4444-4444-444444444444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\macro">
+      <UniqueIdentifier>{a5555555-5555-5555-5555-555555555555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\keybinds">
+      <UniqueIdentifier>{a6666666-6666-6666-6666-666666666666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\recording">
+      <UniqueIdentifier>{a7777777-7777-7777-7777-777777777777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\playback">
+      <UniqueIdentifier>{a8888888-8888-8888-8888-888888888888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{a9999999-9999-9999-9999-999999999999}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\Application.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\MainWindow.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Controls.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\Theme.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\StatusPanel.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\FontLoader.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\macro\MacroFile.cpp">
+      <Filter>src\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="src\macro\MacroFormat.cpp">
+      <Filter>src\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keybinds\KeybindManager.cpp">
+      <Filter>src\keybinds</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recording\InputHook.cpp">
+      <Filter>src\recording</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recording\MacroRecorder.cpp">
+      <Filter>src\recording</Filter>
+    </ClCompile>
+    <ClCompile Include="src\playback\MacroPlayer.cpp">
+      <Filter>src\playback</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\app\Application.h">
+      <Filter>src\app</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Clock.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Constants.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Types.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\MainWindow.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Controls.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\Theme.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\StatusPanel.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\FontLoader.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\macro\MacroEvent.h">
+      <Filter>src\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="src\macro\MacroFile.h">
+      <Filter>src\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="src\macro\MacroFormat.h">
+      <Filter>src\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="src\keybinds\KeybindManager.h">
+      <Filter>src\keybinds</Filter>
+    </ClInclude>
+    <ClInclude Include="src\recording\InputHook.h">
+      <Filter>src\recording</Filter>
+    </ClInclude>
+    <ClInclude Include="src\recording\MacroRecorder.h">
+      <Filter>src\recording</Filter>
+    </ClInclude>
+    <ClInclude Include="src\playback\MacroPlayer.h">
+      <Filter>src\playback</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\resource.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\app.manifest">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\app.ico">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\icon.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\version.rc">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
