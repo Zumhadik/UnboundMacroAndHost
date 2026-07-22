@@ -1,6 +1,0 @@
-#include "resource.h"
-
-IDR_FONT_SFPRO RCDATA "..\\assets\\fonts\\SFPRODISPLAYBOLD.OTF"
-IDI_APPICON ICON "app.ico"
-
-#include "version.rc"
